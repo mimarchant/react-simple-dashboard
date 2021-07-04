@@ -1,0 +1,39 @@
+.container{
+    padding: 0 30px 30px 30px;
+    
+
+}
+
+.cardContainer{
+    
+    text-align: center;
+    margin-bottom: 20px;
+    height: auto;
+    transition: transform .25s;
+}
+
+.cardContainer:hover{
+    transform: scale(1.1);
+}
+
+.ant-statistic-title{
+    color: white;
+}
+
+.ant-statistic-content-value{
+    color: white;
+}
+
+.graphTitle{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .graphChart{
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+
+    }
+}

@@ -1,0 +1,36 @@
+.navList{
+    list-style: none;
+    float: left;
+    display: flex;
+    color: white;
+}
+
+ul{
+    margin-bottom: 10px;
+}
+
+ul > li {
+    padding: 0 5px;
+    animation: transform .25s;
+    color: white;
+}
+
+
+
+ul > li:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+    
+
+.menuIcon{
+    color: white;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+
+
+
+
