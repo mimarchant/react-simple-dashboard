@@ -3,7 +3,13 @@
     text-align: center;
 }
 
-.ppl{
+a{
     color: white;
 }
+.peopleList{
+    font-size: 23px;
+}
 
+.ant-divider-horizontal{
+    background-color: white;
+}
