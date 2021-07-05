@@ -4,6 +4,7 @@ import NavBar from '../components/Navbar';
 
 import Dashboard from '../views/Dashboard';
 import PeopleList from '../views/PeopleList';
+import DetallePersona from '../views/DetallePersona';
 
 function Routes() {
   return (
@@ -17,7 +18,10 @@ function Routes() {
         <Route exact path='/' component={Dashboard} />
       </Switch>
       <Switch>
-        <Route exact path='/people' component={PeopleList} />
+        <Route exact path='/users' component={PeopleList} />
+      </Switch>
+      <Switch>
+        <Route exact path='/users/details/:id' component={DetallePersona} />
       </Switch>
 
     </BrowserRouter>

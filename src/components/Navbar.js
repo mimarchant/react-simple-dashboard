@@ -11,7 +11,7 @@ const NavBar = (props) => {
             <ul className='navList'>
                 <li><MenuOutlined className='menuIcon' /></li>
                 <li className='listItem'><Link to='/'>Dashboard</Link></li>
-                <li className='listItem'><Link to='/people'>General</Link></li>
+                <li className='listItem'><Link to='/users'>General</Link></li>
             </ul>
         </Header>
   );

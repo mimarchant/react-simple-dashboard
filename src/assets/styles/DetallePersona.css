@@ -1,0 +1,34 @@
+
+.imgRow{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+.ant-card{
+    justify-content: center;
+    text-align: center;
+}
+
+.ant-card-head{
+    background-color: lightblue;
+}
+
+@media(max-width: 992px){
+    .ant-card{
+        margin-bottom: 15px;
+    }
+}
+
